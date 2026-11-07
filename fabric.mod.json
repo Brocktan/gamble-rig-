@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "fakedispenser",
+  "version": "${version}",
+  "name": "Fake Dispenser",
+  "description": "Client-side only: makes items that pop out of chosen dispensers look like any item with any name.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.fakedispenser.FakeDispenserClient"]
+  },
+  "mixins": [
+    { "config": "fakedispenser.mixins.json", "environment": "client" }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

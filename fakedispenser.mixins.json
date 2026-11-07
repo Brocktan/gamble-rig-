@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.fakedispenser.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["ItemEntityMixin", "ClientPlayNetworkHandlerMixin"],
+  "injectors": { "defaultRequire": 0 }
+}
